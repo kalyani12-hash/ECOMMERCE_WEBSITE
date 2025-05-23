@@ -153,7 +153,7 @@ const ShopContextProvider = (props) =>{
 
     useEffect(()=>{
         getProductData();
-    },[products]);
+    },[]);
 
     useEffect(() => {
         const savedToken = localStorage.getItem("token");

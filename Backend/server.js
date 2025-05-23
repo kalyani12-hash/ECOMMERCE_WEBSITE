@@ -16,7 +16,16 @@ connectCloudinary();
 
 // Middlewares
 app.use(express.json());
-app.use(cors());
+
+
+
+app.use(cors({
+    origin: "*", // ✅ Allow both local & deployed frontend
+    methods: "GET, POST, PUT, DELETE",
+    credentials: true
+}));
+
+
 
 // API Endpoints
 

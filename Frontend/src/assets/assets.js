@@ -590,7 +590,7 @@ export const products = [
     },
     {
         _id: "aaabp",
-        name: "Boy Round Neck Pure Cotton T-shirt",
+        name: " Round Neck Pure CotBoyton T-shirt",
         description: "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
         price: 300,
         image: [p_img42],
